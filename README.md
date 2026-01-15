@@ -29,29 +29,6 @@ RentalApp is an iOS application built with **SwiftUI** and **SwiftData** that he
 - **Xcode**
 - **iOS 17+** (recommended for SwiftData support)
 
----
-
-## 📂 Project Structure
-
-RentalApp/
-├── RentalApp/
-│ ├── Models/
-│ │ ├── Apartment.swift
-│ │ ├── Guest.swift
-│ │ └── FamilyMember.swift
-│ ├── Views/
-│ │ ├── ContentView.swift
-│ │ └── ...
-│ ├── RentalAppApp.swift
-│
-├── RentalAppTests/
-│ └── RentalAppTests.swift
-│
-├── RentalAppUITests/
-│ └── RentalAppUITests.swift
-│
-└── RentalApp.xcodeproj
-
 
 ---
 
