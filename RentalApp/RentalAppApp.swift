@@ -1,32 +1,12 @@
-//
-//  RentalAppApp.swift
-//  RentalApp
-//
-//  Created by Andre on 12.12.25.
-//
-
 import SwiftUI
 import SwiftData
 
 @main
-struct RentalAppApp: App {
-    var sharedModelContainer: ModelContainer = {
-        let schema = Schema([
-            Item.self,
-        ])
-        let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
-
-        do {
-            return try ModelContainer(for: schema, configurations: [modelConfiguration])
-        } catch {
-            fatalError("Could not create ModelContainer: \(error)")
-        }
-    }()
-
+struct RentalAppNewApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
         }
-        .modelContainer(sharedModelContainer)
+        .modelContainer(for: [Apartment.self, Guest.self, FamilyMember.self]) // ✅ Added FamilyMember
     }
 }
