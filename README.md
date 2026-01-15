@@ -55,38 +55,38 @@ The app uses SwiftData models:
 
 .modelContainer(for: [Apartment.self, Guest.self, FamilyMember.self])
 
-Apartment
+-Apartment
 
-    title
+    -title
 
-    address
+    -address
 
-    pricePerNight
+    -pricePerNight
 
-    details
+    -details
 
-    imageName
+    -imageName
 
-    maxGuests
+    -maxGuests
 
-Guest
+-Guest
 
-    fullName
+    -fullName
 
-    email
+    -email
 
-    phoneNumber
+    -phoneNumber
 
-    notes
+    -notes
 
-    passportImageData
+    -passportImageData
 
-FamilyMember
+-FamilyMember
 
-    fullName
+    -fullName
 
-    relationship
+    -relationship
 
-    passportImageData
+    -passportImageData
 
-    Linked to a Guest
+    -Linked to a Guest
