@@ -1,6 +1,6 @@
 # 🏡 RentalApp
 
-RentalApp is an iOS application built with **SwiftUI** and **SwiftData** that helps manage apartment rentals and guest information. It allows you to store apartments, register guests and their family members, and keep important booking notes and documents in one place
+RentalApp is an iOS application built with **SwiftUI** and **SwiftData** that helps manage apartment rentals and guest information. It allows you to store apartments, register guests and their family members, and keep important booking notes and documents in one place.
 
 ---
 
